@@ -1,6 +1,6 @@
 /**
  * Project: NishadRaj OS
- * Author: Jawahar R Mallah
+ * Organization: AITDL | NISHADRAJ
  * Organization: AITDL
  * License: AGPL-3.0 + Governance Protection Terms
  */
@@ -61,7 +61,7 @@ export default async function GovernanceDashboard() {
                 </div>
                 <div className="text-right">
                     <p className="text-gold text-xs font-bold uppercase">Authorized Access Only</p>
-                    <p className="text-gray-500 text-[10px] mt-1 italic">Copyright © Jawahar R Mallah | AITDL</p>
+                    <p className="text-gray-500 text-[10px] mt-1 italic">Copyright © AITDL | NISHADRAJ All Rights Reserved</p>
                 </div>
             </header>
 

@@ -1,13 +1,13 @@
-
+﻿
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.1.0
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 ## [2026-02-25] - Public Positioning Suite Deployment
 - **Status**: ACTIVE
 - **Scope**: GitHub profile, Website copy, Institutional Whitepaper.
@@ -39,7 +39,7 @@ Log of all code modifications and their identified impacts.
 | STRATEGY-001 | /public/strategy/*, /institutional/*, /financial/* | Deployed Hybrid Strategic Expansion Framework. | Integrated global outreach, academic/institutional engagement, and revenue models. |
 | HARDENING-001 | /governance/ai-governance.schema.json | Upgraded to v1.2.0. Deterministic locking via `const`. | Blocked additional properties and locked critical governance flags. |
 | VALIDATOR-002 | /system/validator_agent.py | Upgraded to deterministic enforcement. | Replaced symbolic checks with JSON Schema validation and hash verification. |
-| GOV_UPGRADE-001 | /docs/GOVERNANCE_UPGRADE_PROTOCOL.md | Established formal governance upgrade protocol. | Tag: GOV_UPGRADE_v1.0.0, Author: Jawahar R Mallah. |
+| GOV_UPGRADE-001 | /docs/GOVERNANCE_UPGRADE_PROTOCOL.md | Established formal governance upgrade protocol. | Tag: GOV_UPGRADE_v1.0.0, Organization: AITDL | NISHADRAJ. |
 
 
 | GOV_UPGRADE_1.2.1 | /governance/* | Upgraded governance to v1.2.1. | Version: 1.2.1, Status: SUCCESS, Time: 2026-02-25. |
@@ -58,3 +58,19 @@ TIMESTAMP: 2026-02-25T14:19:36.538721
 | GOV_UPGRADE_1.2.4 | /governance/* | Upgraded governance to v1.2.4. | Version: 1.2.4, Status: SUCCESS, Time: 2026-02-25. |
 | GOV_UPGRADE_1.2.5 | /governance/* | Upgraded governance to v1.2.5. | Version: 1.2.5, Status: SUCCESS, Time: 2026-02-25. |
 | README_UPDATE_001 | /README.md | Rewrote README.md to reflect institutional architecture, governance model, and AUTH_002 module. | Status: COMPLETED, Risk: LOW, Time: 2026-02-25. |
+
+--------------------------------
+CHANGE_ID: COPYRIGHT_UPDATE_002
+MODULE: GLOBAL
+IMPACT: Organizational copyright alignment
+RISK_LEVEL: LOW
+TIMESTAMP: 2026-02-25T18:58:00Z
+--------------------------------
+
+--------------------------------
+CHANGE_ID: REG_18c2c9b1-bc45-42ec-9f83-11de640e7a8e
+MODULE: AUTH
+IMPACT: New user registered: admin@nishadraj.dev
+RISK_LEVEL: LOW
+TIMESTAMP: 2026-02-25T19:11:41.015205
+--------------------------------

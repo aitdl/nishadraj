@@ -1,11 +1,11 @@
-# NishadRaj OS: A Digital Civilizational Framework
-## Formal Whitepaper — Version 1.0
+﻿# NishadRaj OS: A Digital Civilizational Framework
+## Formal Whitepaper â€” Version 1.0
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -46,7 +46,7 @@ NishadRaj OS is the intellectual property of **Jawahar R Mallah**, managed by **
 We advocate for the "Controlled Open Source" model. This approach combines the transparency of open source with the security of a managed institutional product. Code is open for inspection and audit, but the roadmap and official releases are governed by the AITDL Governance Council to prevent fragmentation and compromise.
 
 ## 9. Institutional Framework
-NishadRaj OS is designed to be housed within a stable legal entity—either a Section 8 Company or a Public Charitable Trust. This institutional structure provides:
+NishadRaj OS is designed to be housed within a stable legal entityâ€”either a Section 8 Company or a Public Charitable Trust. This institutional structure provides:
 - **Perpetual Succession**: The project outlives its individual contributors.
 - **Legal Personhood**: The ability to hold trademarks, copyrights, and enter into agreements.
 - **Neutrality**: A non-profit mandate to ensure the OS serves the public interest.
@@ -107,11 +107,12 @@ The pipeline is the ultimate gatekeeper.
 - **Year 5**: Establishment of the NishadRaj Digital Civilizational Standard.
 
 ## 19. Ethical Commitment & Neutrality
-NishadRaj OS is committed to absolute neutrality. We do not align with any political party or partisan ideology. Our ethical framework is centered on "Ahimsa" (Non-harm) in the digital realm—protecting privacy, ensuring access, and preventing the weaponization of technology.
+NishadRaj OS is committed to absolute neutrality. We do not align with any political party or partisan ideology. Our ethical framework is centered on "Ahimsa" (Non-harm) in the digital realmâ€”protecting privacy, ensuring access, and preventing the weaponization of technology.
 
 ## 20. Conclusion: Digital Civilizational Framework
 NishadRaj OS is more than an operating system; it is a blueprint for a resilient digital future. By codifying integrity and institutionalizing sovereignty, we provide the tools necessary for humanity to navigate the digital age with dignity, freedom, and continuity.
 
 ---
-**Institutional Authority: Jawahar R Mallah | AITDL**  
+**Institutional Authority: AITDL | NISHADRAJ**  
 *End of Whitepaper*
+

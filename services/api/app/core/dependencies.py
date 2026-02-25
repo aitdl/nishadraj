@@ -1,9 +1,9 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Organization: AITDL
 License: AGPL-3.0 + Governance Protection Terms
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 """
 
 from fastapi import Depends, HTTPException, status
@@ -75,3 +75,4 @@ async def check_login_lockout(email: str):
     """
     # Placeholder for lockout logic
     pass
+

@@ -1,9 +1,9 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Organization: AITDL
 License: AGPL-3.0 + Governance Protection Terms
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 """
 
 from sqlalchemy import String, DateTime, JSON, ForeignKey
@@ -25,3 +25,4 @@ class AuditLog(Base):
     ip_address: Mapped[Optional[str]] = mapped_column(String(45), nullable=True)
     details: Mapped[Optional[dict]] = mapped_column(JSON, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=lambda: datetime.now(UTC))
+

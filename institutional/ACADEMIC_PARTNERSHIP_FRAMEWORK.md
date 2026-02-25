@@ -1,10 +1,10 @@
-# Academic Partnership Framework — NishadRaj OS
+﻿# Academic Partnership Framework â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -51,4 +51,5 @@ Ensuring partnerships remain independent and objective.
 - **Freedom of Research**: Protecting the scholar's right to objective technical analysis, even when critical of specific implementations.
 
 ---
-**Institutional Authority: Jawahar R Mallah | AITDL**
+**Institutional Authority: AITDL | NISHADRAJ**
+

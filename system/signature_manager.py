@@ -1,6 +1,6 @@
 """
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com

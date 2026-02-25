@@ -1,10 +1,10 @@
-# Documentation Manifest — NishadRaj OS
+﻿# Documentation Manifest â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -35,3 +35,4 @@ This section tracks the official public documents intended for external distribu
 ---
 **Last Updated:** 2026-02-25  
 **Hash Registry Reference:** See `governance.lock.json`
+

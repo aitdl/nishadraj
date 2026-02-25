@@ -1,10 +1,10 @@
-# Endowment Structure — NishadRaj OS
+﻿# Endowment Structure â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -33,4 +33,5 @@ Transparency as a trust-builder.
 - **Disbursement Impact**: Linking endowment spending to successful technical and cultural milestones.
 
 ---
-**Institutional Authority: Jawahar R Mallah | AITDL**
+**Institutional Authority: AITDL | NISHADRAJ**
+

@@ -1,4 +1,4 @@
-# License: NishadRaj OS
+﻿# License: NishadRaj OS
 
 **Primary License**: GNU Affero General Public License v3.0 (AGPL-3.0)
 
@@ -11,5 +11,6 @@ In addition to the terms of the AGPL-3.0, the following protective measures are 
 3. **Mandatory Enforcement**: All modified versions of this system must retain and enforce the validator and digital signature layers.
 4. **Recursive Open Source**: Any modification or derivation of this system must be released under the same AGPL-3.0 license with these Additional Governance Protection Terms.
 
-**Copyright © Jawahar R Mallah | AITDL**
+**Copyright © AITDL | NISHADRAJ**
 **All Rights Reserved**
+

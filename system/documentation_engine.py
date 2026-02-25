@@ -1,9 +1,9 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Organization: AITDL
 License: AGPL-3.0 + Governance Protection Terms
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 """
 
 import os
@@ -136,3 +136,4 @@ def update_module_status(module, status):
     except Exception as e:
         print(f"CRITICAL: Failed to update MODULE_STATUS_LEDGER.json: {e}")
         return False
+

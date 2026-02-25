@@ -1,4 +1,4 @@
-# Open Source Policy: NishadRaj OS
+﻿# Open Source Policy: NishadRaj OS
 
 NishadRaj OS operates under a **Controlled Open Source** model. While the code is open under AGPL-3.0, its execution and evolution are strictly governed.
 
@@ -10,5 +10,6 @@ NishadRaj OS operates under a **Controlled Open Source** model. While the code i
 4. **Signature Verification**: All core components must be cryptographically signed. Unauthorized modifications that break signatures will prevent the system from starting.
 5. **Enforcement Perseverance**: Forked versions of NishadRaj OS are legally and technically required to maintain the governance layer's enforcement capabilities.
 
-**Copyright © Jawahar R Mallah | AITDL**
+**Copyright © AITDL | NISHADRAJ**
 **All Rights Reserved**
+

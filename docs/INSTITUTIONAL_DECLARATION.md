@@ -1,4 +1,4 @@
-# Institutional Declaration — NishadRaj OS
+﻿# Institutional Declaration â€” NishadRaj OS
 
 ## Public Statement of Digital Sovereignty
 We, the developers and community of NishadRaj OS, declare our commitment to a sovereign digital future. NishadRaj OS is more than an operating system; it is a declaration of independence from centralized technological control.
@@ -20,3 +20,4 @@ Every decision that affects the core architecture of NishadRaj OS will be logged
 Jawahar R Mallah
 Founder & Chief Architect
 NishadRaj OS | AITDL
+

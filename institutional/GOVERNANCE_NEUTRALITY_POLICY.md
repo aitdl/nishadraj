@@ -1,10 +1,10 @@
-# Governance Neutrality Policy — NishadRaj OS
+﻿# Governance Neutrality Policy â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -34,4 +34,5 @@ The platform's tools shall never be weaponized for disinformation or propaganda.
 ---
 **Failure to comply with this policy results in immediate loss of institutional recognition and revocation of execution rights for the offending entity.**
 
-**Institutional Authority: Jawahar R Mallah | AITDL**
+**Institutional Authority: AITDL | NISHADRAJ**
+

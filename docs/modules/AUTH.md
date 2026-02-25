@@ -115,3 +115,11 @@ No destructive operations detected (`DROP`, `TRUNCATE`, `CASCADE`, `REVOKE`).
 - **migration_status**: APPLIED_DEV
 - **apply_status**: COMPLETE
 - **auth_schema_state**: ACTIVE_DEV
+
+--------------------------------
+CHANGE_ID: REG_18c2c9b1-bc45-42ec-9f83-11de640e7a8e
+MODULE: AUTH
+IMPACT: New user registered: admin@nishadraj.dev
+RISK_LEVEL: LOW
+TIMESTAMP: 2026-02-25T19:11:41.015205
+--------------------------------

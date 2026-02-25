@@ -1,13 +1,13 @@
-
+﻿
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.2.2
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 ---
 # TASK LOG
 Deterministic log of all executed tasks and their outcomes.
@@ -26,3 +26,4 @@ STATUS: COMPLETED
 NOTES: Institutional Ready Auth implemented
 TIMESTAMP: 2026-02-25T14:24:45.535902
 --------------------------------
+

@@ -1,5 +1,5 @@
-{
-    "PYTHON_HEADER": "\nProject: NishadRaj OS\nAuthor: Jawahar R Mallah\nRole: Software Architect\nOrganization: AITDL\nWebsites: https://aitdl.com | https://nishadraj.com\nGovernance Version: 1.1.0\nThis file is part of NishadRaj OS.\nLicensed under AGPL-3.0 with Additional Governance Protection Terms.\nCopyright © Jawahar R Mallah | AITDL\n",
+﻿{
+    "PYTHON_HEADER": "\nProject: NishadRaj OS\nOrganization: AITDL | NISHADRAJ\nRole: Software Architect\nOrganization: AITDL\nWebsites: https://aitdl.com | https://nishadraj.com\nGovernance Version: 1.1.0\nThis file is part of NishadRaj OS.\nLicensed under AGPL-3.0 with Additional Governance Protection Terms.\nCopyright © AITDL | NISHADRAJ\n",
     "JSON_META": {
         "_meta": {
             "project": "NishadRaj OS",
@@ -12,8 +12,8 @@
             ],
             "governance_version": "1.1.0",
             "license": "AGPL-3.0 with Additional Governance Protection Terms",
-            "copyright": "Copyright © Jawahar R Mallah | AITDL"
+            "copyright": "Copyright © AITDL | NISHADRAJ"
         }
     },
-    "MARKDOWN_HEADER": "\nProject: NishadRaj OS\nAuthor: Jawahar R Mallah\nRole: Software Architect\nOrganization: AITDL\nWebsites: https://aitdl.com | https://nishadraj.com\nGovernance Version: 1.1.0\nThis file is part of NishadRaj OS.\nLicensed under AGPL-3.0 with Additional Governance Protection Terms.\nCopyright © Jawahar R Mallah | AITDL\n---\n"
+    "MARKDOWN_HEADER": "\nProject: NishadRaj OS\nOrganization: AITDL | NISHADRAJ\nRole: Software Architect\nOrganization: AITDL\nWebsites: https://aitdl.com | https://nishadraj.com\nGovernance Version: 1.1.0\nThis file is part of NishadRaj OS.\nLicensed under AGPL-3.0 with Additional Governance Protection Terms.\nCopyright © AITDL | NISHADRAJ\n---\n"
 }

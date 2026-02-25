@@ -1,9 +1,9 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Organization: AITDL
 License: AGPL-3.0 + Governance Protection Terms
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 """
 
 import uuid
@@ -24,7 +24,9 @@ class AuditLog(Base):
     description: Mapped[str] = mapped_column(String(255), nullable=False)
     timestamp: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False)
     ip_address: Mapped[str] = mapped_column(String(45), nullable=True)
+    status: Mapped[str] = mapped_column(String(20), nullable=True)
     details: Mapped[dict] = mapped_column(JSON, nullable=True)
 
     def __repr__(self):
         return f"<AuditLog {self.event_type} - {self.timestamp}>"
+

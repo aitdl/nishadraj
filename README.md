@@ -1,4 +1,4 @@
-# NishadRaj OS
+﻿# NishadRaj OS
 
 **Founder:** Jawahar R Mallah  
 **Organization:** AITDL  
@@ -7,15 +7,15 @@
 
 ---
 
-## 🏛 Overview
+## ðŸ› Overview
 
 NishadRaj OS is a governance-driven backend platform designed with deterministic enforcement, cryptographic integrity, structured auditability, and institutional-grade access control.
 
-This system is not a prototype framework — it is a structured operating backbone.
+This system is not a prototype framework â€” it is a structured operating backbone.
 
 ---
 
-## 🔐 Core Principles
+## ðŸ” Core Principles
 
 - Strict sequential task execution
 - Schema + Instance governance locking
@@ -28,13 +28,13 @@ This system is not a prototype framework — it is a structured operating backbo
 
 ---
 
-## 🧠 Architecture
+## ðŸ§  Architecture
 
 ```
 Frontend
-↓
+â†“
 FastAPI Backend (JWT + Optional 2FA + RBAC + Governance)
-↓
+â†“
 PostgreSQL (Docker DEV / Supabase PROD)
 ```
 
@@ -43,7 +43,7 @@ No Supabase Auth is used.
 
 ---
 
-## 🔒 Governance Layer
+## ðŸ”’ Governance Layer
 
 **Location:**
 ```
@@ -66,12 +66,12 @@ python system/validator_agent.py
 
 ---
 
-## 🗄 Database Strategy
+## ðŸ—„ Database Strategy
 
 Environment-driven configuration:
 
-- **DEV** → Docker PostgreSQL
-- **PROD** → Supabase PostgreSQL
+- **DEV** â†’ Docker PostgreSQL
+- **PROD** â†’ Supabase PostgreSQL
 - No multi-runtime switching
 - No direct frontend DB access
 
@@ -84,7 +84,7 @@ Environment-driven configuration:
 
 ---
 
-## 🔑 Authentication (AUTH_002)
+## ðŸ”‘ Authentication (AUTH_002)
 
 - Email + Password
 - Optional TOTP (2FA)
@@ -96,7 +96,7 @@ Environment-driven configuration:
 
 ---
 
-## 📄 Documentation Structure
+## ðŸ“„ Documentation Structure
 
 **Central:**
 ```
@@ -112,7 +112,7 @@ All module actions, errors, and changes are logged automatically.
 
 ---
 
-## 🚦 Execution Rules
+## ðŸš¦ Execution Rules
 
 No task is marked `COMPLETE` without:
 - Governance validation pass
@@ -121,14 +121,14 @@ No task is marked `COMPLETE` without:
 
 ---
 
-## ⚖ License
+## âš– License
 
 AGPL-3.0 + Governance Protection Terms  
-All Rights Reserved © Jawahar R Mallah | AITDL
+All Rights Reserved © AITDL | NISHADRAJ
 
 ---
 
-## 🔧 Development Setup (DEV)
+## ðŸ”§ Development Setup (DEV)
 
 1. Run Docker PostgreSQL
 2. Configure `DATABASE_URL_DEV`
@@ -138,7 +138,7 @@ All Rights Reserved © Jawahar R Mallah | AITDL
 
 ---
 
-## 📊 System Status
+## ðŸ“Š System Status
 
 | Component | Status |
 |-----------|--------|
@@ -151,3 +151,4 @@ All Rights Reserved © Jawahar R Mallah | AITDL
 ---
 
 *NishadRaj OS is built for structured, transparent, governance-first system development.*
+

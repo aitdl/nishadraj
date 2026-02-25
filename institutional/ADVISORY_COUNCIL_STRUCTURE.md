@@ -1,4 +1,4 @@
-# Advisory Council Structure
+﻿# Advisory Council Structure
 
 ## Roles & Responsibilities
 
@@ -39,3 +39,4 @@
 1. **Mediation**: Discussion within the relevant council.
 2. **Review**: Advisory Council joint session.
 3. **Escalation**: Final adjudication by the Founder.
+

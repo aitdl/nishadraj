@@ -1,13 +1,13 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.1.0
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 
 Module: Planner Agent
 Objective: Design and register structured tasks in the Task Registry.
@@ -31,3 +31,4 @@ class PlannerAgent:
 if __name__ == "__main__":
     planner = PlannerAgent()
     print("Planner Agent initialized.")
+

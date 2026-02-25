@@ -1,13 +1,13 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.1.0
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 
 Module: Transparency API
 Objective: Expose read-only governance and security status metrics.
@@ -67,3 +67,4 @@ if __name__ == "__main__":
     api = TransparencyAPI()
     print("Transparency API initialized (Mock Output):")
     print(json.dumps(api.get_status(), indent=4))
+

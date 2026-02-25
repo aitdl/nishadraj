@@ -1,10 +1,10 @@
-# Institutional Engagement Model — NishadRaj OS
+﻿# Institutional Engagement Model â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -51,4 +51,5 @@ Proactively preventing institutional overreach.
 - **Neutrality Enforcement**: Automating the blocking of any attempt to use the OS for political propaganda or sectarian divide.
 
 ---
-**Institutional Authority: Jawahar R Mallah | AITDL**
+**Institutional Authority: AITDL | NISHADRAJ**
+

@@ -1,9 +1,9 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Organization: AITDL
 License: AGPL-3.0 + Governance Protection Terms
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 """
 
 import json
@@ -27,9 +27,11 @@ except ImportError:
     sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
     from system.signature_manager import verify_all_governance_files
 
-SCHEMA_PATH = "governance/ai-governance.schema.json"
-LOCK_PATH = "governance/governance.lock.json"
-INSTANCE_PATH = "governance/governance.instance.json"
+# Robust project root calculation
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+SCHEMA_PATH = os.path.join(PROJECT_ROOT, "governance/ai-governance.schema.json")
+LOCK_PATH = os.path.join(PROJECT_ROOT, "governance/governance.lock.json")
+INSTANCE_PATH = os.path.join(PROJECT_ROOT, "governance/governance.instance.json")
 
 def compute_sha256(filepath: str) -> str:
     with open(filepath, "rb") as f:
@@ -132,3 +134,4 @@ if __name__ == "__main__":
         print(f"Governance validation FAILED: {e}")
         import sys
         sys.exit(1)
+

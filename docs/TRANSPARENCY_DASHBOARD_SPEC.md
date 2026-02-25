@@ -1,12 +1,12 @@
-Project: NishadRaj OS
-Author: Jawahar R Mallah
+﻿Project: NishadRaj OS
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.1.0
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 ---
 # Transparency Dashboard Specification
 
@@ -26,3 +26,4 @@ The NishadRaj OS Transparency Dashboard provides real-time public access to the 
 - **Read-Only**: All transparency endpoints are strictly read-only. No external write operations are permitted.
 - **Frequency**: Metrics are cached and updated every 10 minutes or upon significant governance events.
 - **Integrity**: Each metric is cryptographically signed at the source.
+

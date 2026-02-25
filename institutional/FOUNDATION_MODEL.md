@@ -1,4 +1,4 @@
-# Foundation Model — NishadRaj OS
+﻿# Foundation Model â€” NishadRaj OS
 
 ## Mission Statement
 To establish a sovereign, autonomous, and ethically governed open-source ecosystem that empowers individuals and communities through decentralized technology and open knowledge.
@@ -31,3 +31,4 @@ NishadRaj OS operates on the principle of **Digital Sovereignty**. It is designe
 - **Technical Council**: Elected contributors overseeing the codebase.
 - **Advocacy Groups**: Local chapters promoting the use of NishadRaj OS.
 - **Governance Voting**: Stakeholder-based voting for non-core architectural decisions.
+

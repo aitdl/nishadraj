@@ -1,5 +1,5 @@
 # Project: NishadRaj OS
-# Author: Jawahar R Mallah
+# Organization: AITDL | NISHADRAJ
 # Organization: AITDL
 # License: AGPL-3.0 + Governance Protection Terms
 

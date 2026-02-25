@@ -1,10 +1,10 @@
-# Academic Outreach Packet — NishadRaj OS
+﻿# Academic Outreach Packet â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -48,3 +48,4 @@ NishadRaj OS operates under the AGPL-3.0 license with Additional Governance Prot
 **Official Documentation Reference:**
 - [Institutional Charter](file:///d:/IMP/GitHub/nishadraj/institutional/FOUNDING_CHARTER.md)
 - [Academic Partnership Framework](file:///d:/IMP/GitHub/nishadraj/institutional/ACADEMIC_PARTNERSHIP_FRAMEWORK.md)
+

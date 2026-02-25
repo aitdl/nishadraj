@@ -1,9 +1,9 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Organization: AITDL
 License: AGPL-3.0 + Governance Protection Terms
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 """
 
 from pydantic import BaseModel, EmailStr, Field, validator
@@ -53,3 +53,4 @@ class UserRegistrationOut(BaseModel):
 class TOTPVerify(BaseModel):
     token: str
     password: str
+

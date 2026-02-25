@@ -4,8 +4,8 @@ import sys
 import subprocess
 import os
 
-BASE_URL = "http://localhost:8000/api/auth"
-TEST_USER = {"email": "admin@nishadraj.dev", "password": "StrongPass123!", "role": "admin", "is_active": True}
+BASE_URL = "http://localhost:8005/api/auth"
+TEST_USER = {"email": "admin@nishadraj.dev", "password": "StrongPass123!", "role": "ADMIN", "is_active": True}
 token = None
 
 def print_step(msg):
@@ -24,7 +24,7 @@ env = os.environ.copy()
 env["DATABASE_URL"] = "postgresql://app_user:localdev123@localhost:5433/prathamone_os"
 env["PYTHONPATH"] = "d:/IMP/GitHub/nishadraj"
 server_proc = subprocess.Popen(
-    [sys.executable, "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"],
+    [sys.executable, "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8005"],
     env=env,
     cwd="d:/IMP/GitHub/nishadraj/services/api"
 )
@@ -32,7 +32,7 @@ server_proc = subprocess.Popen(
 # Wait for server to be ready
 for _ in range(10):
     try:
-        if requests.get("http://localhost:8000/health").status_code == 200:
+        if requests.get("http://localhost:8005/health").status_code == 200:
             print("Server is up!")
             break
     except:

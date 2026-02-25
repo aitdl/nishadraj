@@ -1,13 +1,13 @@
-"""
+﻿"""
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.1.0
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 
 Module: Guardian Agent
 Objective: Final authority for system state changes and merges.
@@ -30,3 +30,4 @@ class GuardianAgent:
 if __name__ == "__main__":
     guardian = GuardianAgent()
     print("Guardian Agent initialized. Final Authority ACTIVE.")
+

@@ -1,6 +1,6 @@
-
+﻿
 Project: NishadRaj OS
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
@@ -23,7 +23,7 @@ SYSTEM_PROJECT_RENAME_AND_ARCHIVE_COMMAND:
 OLD_PROJECT_NAME: NishadRaj Platform
 NEW_PROJECT_NAME: NishadRaj OS
 
-Author: Jawahar R Mallah
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
@@ -49,3 +49,4 @@ EXECUTE STRICTLY IN ORDER:
 - **Status**: SUCCESS
 - **Verification**: Full integrity validation passed.
 - **Archive Date**: 2026-02-25
+

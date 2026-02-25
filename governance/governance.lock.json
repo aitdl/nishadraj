@@ -1,17 +1,17 @@
 {
     "_meta": {
         "project": "NishadRaj OS",
-        "author": "Jawahar R Mallah",
-        "role": "Software Architect",
-        "organization": "AITDL",
+        "author": "AITDL | NISHADRAJ",
+        "role": "Organization",
+        "organization": "AITDL | NISHADRAJ",
         "websites": [
             "https://aitdl.com",
             "https://nishadraj.com"
         ],
         "governance_version": "1.2.5"
     },
-    "governance_schema_hash": "05AD6D1DCE400BFA38534F6FC22219CCCA529A913E55C05D5B2EC04A145A7728",
-    "governance_instance_hash": "6AEAA95CDBA7CD05C3D4E18A3C8340D1904DC73282DDC6335285A8BBF69B2E76",
+    "governance_schema_hash": "96396826B85C9611B7532AE62BCE2BDCEDFD726396C94CE213120C92FB6401C1",
+    "governance_instance_hash": "65150B8492934D8992C51B6FFB52FA92FF3CA837A349B51D3CD0FF88D963488E",
     "task_registry_hash": "04373ecda49477be62970af012f4378b92be7c3cabd8e1e043ff4f7150e18db1",
     "documentation_manifest_hash": "1974C7716406A42EE16659F81B290A570D8EA2E2638AAF9AACF8E2FEF8974609",
     "author_attribution_enforced": true,

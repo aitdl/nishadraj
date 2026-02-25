@@ -1,10 +1,10 @@
-# Sustainable Revenue Model — NishadRaj OS
+﻿# Sustainable Revenue Model â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -16,7 +16,7 @@ NishadRaj OS maintains its independence through a "Multi-Stream Funding" approac
 4. **Educational Programs**: Fees from specialized training, certification, and sovereignty-focused developer workshops.
 5. **Fellowship Sponsorship**: Corporate or institutional grants specifically designated for the Research Fellow Program.
 6. **Digital Archive Access Programs**: Managed access for scholars and researchers to specialized cultural registries (non-commercial).
-7. **Advisory & Consulting Services**: The "Governance Export Model"—providing expert guidance to other organizations on deploying governed, autonomous infrastructures.
+7. **Advisory & Consulting Services**: The "Governance Export Model"â€”providing expert guidance to other organizations on deploying governed, autonomous infrastructures.
 
 ## 2. Financial Discipline & Transparency
 We treat transparency as a core technical requirement.
@@ -31,4 +31,5 @@ Building for civilizational continuity.
 - **Advisory Oversight**: The Financial Council manages all disbursement, subject to the veto power of the Chief Architect on any mission-altering fiscal decisions.
 
 ---
-**Institutional Authority: Jawahar R Mallah | AITDL**
+**Institutional Authority: AITDL | NISHADRAJ**
+

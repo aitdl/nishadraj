@@ -1,12 +1,12 @@
-Project: NishadRaj OS
-Author: Jawahar R Mallah
+﻿Project: NishadRaj OS
+Organization: AITDL | NISHADRAJ
 Role: Software Architect
 Organization: AITDL
 Websites: https://aitdl.com | https://nishadraj.com
 Governance Version: 1.1.0
 This file is part of NishadRaj OS.
 Licensed under AGPL-3.0 with Additional Governance Protection Terms.
-Copyright © Jawahar R Mallah | AITDL
+Copyright © AITDL | NISHADRAJ
 ---
 # Public Roadmap: NishadRaj OS
 
@@ -25,3 +25,4 @@ Copyright © Jawahar R Mallah | AITDL
 ## Phase D: Institutional Adoption (2027+)
 - **Status**: VISION
 - **Objectives**: Scale NishadRaj OS as the foundational layer for enterprise and governmental autonomous agents.
+

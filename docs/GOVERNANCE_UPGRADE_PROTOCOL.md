@@ -1,10 +1,10 @@
-# GOVERNANCE UPGRADE PROTOCOL — NishadRaj OS
+﻿# GOVERNANCE UPGRADE PROTOCOL â€” NishadRaj OS
 
 > Project: NishadRaj OS
-> Author: Jawahar R Mallah
+> Organization: AITDL | NISHADRAJ
 > Organization: AITDL
 > License: AGPL-3.0 + Governance Protection Terms
-> Copyright © Jawahar R Mallah | AITDL
+> Copyright © AITDL | NISHADRAJ
 
 ## 1. Purpose
 - **Prevent unauthorized governance drift**: Ensure all changes to the governance layer are intentional, documented, and authorized.
@@ -17,29 +17,29 @@
 
 ## 3. Mandatory Upgrade Steps
 
-### STEP 1 — Create Upgrade Proposal
+### STEP 1 â€” Create Upgrade Proposal
 - Document proposed changes in detail.
 - Perform a comprehensive risk assessment.
 - Review for backward compatibility with existing agents and services.
 
-### STEP 2 — Increment Version
+### STEP 2 â€” Increment Version
 - Update version in `governance/ai-governance.schema.json`.
 - Update `_meta.governance_version` in relevant artifacts and lock files.
 
-### STEP 3 — Update Instance (if required)
+### STEP 3 â€” Update Instance (if required)
 - Modify `governance/governance.instance.json` to reflect new parameters or rules.
 
-### STEP 4 — Recompute Hash
+### STEP 4 â€” Recompute Hash
 - Recompute the SHA256 hash of updated governance files.
 - Update `governance/governance.lock.json` with new hashes.
 
-### STEP 5 — Re-sign Governance Files
+### STEP 5 â€” Re-sign Governance Files
 - Execute `python system/signature_manager.py` to re-sign all governed files.
 
-### STEP 6 — Run Full Validation
+### STEP 6 â€” Run Full Validation
 - Execute `python system/validator_agent.py` and ensure a `PASS` status is returned.
 
-### STEP 7 — Log Change
+### STEP 7 â€” Log Change
 - Create an entry in `docs/CHANGE_IMPACT_LOG.md`.
 - Use the tag format: `GOV_UPGRADE_vX.Y.Z`.
 
@@ -62,3 +62,4 @@
 ## 7. Authority Statement
 - **Governance evolution authority**: Primary authority for governance evolution is retained by the Founder (**Jawahar R Mallah**).
 - **Institutional override**: Institutional overrides are only valid via formal, documented resolution as defined in the advisory framework.
+

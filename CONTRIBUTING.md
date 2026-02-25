@@ -1,4 +1,4 @@
-# Contributing to NishadRaj OS
+﻿# Contributing to NishadRaj OS
 
 Welcome! We appreciate your interest in contributing to NishadRaj OS. This project is unique because it is protected by a deterministic AI Governance Layer.
 
@@ -23,5 +23,6 @@ This system enforces strict rules via a **Validator Agent** and a **Digital Sign
 - Maintain high code-to-comment ratios.
 - Do not modify files in `/governance` or `/security` unless part of an authorized governance upgrade.
 
-**Copyright © Jawahar R Mallah | AITDL**
+**Copyright © AITDL | NISHADRAJ**
 **All Rights Reserved**
+

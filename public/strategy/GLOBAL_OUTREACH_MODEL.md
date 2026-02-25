@@ -1,10 +1,10 @@
-# Global Outreach Model — NishadRaj OS
+﻿# Global Outreach Model â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -51,4 +51,5 @@ Establishing sovereign coordinators on a country-by-country basis.
 - **Distributed Stability**: Increasing the resilience of NishadRaj OS through a diverse, global network of coordinated nodes.
 
 ---
-**Institutional Authority: Jawahar R Mallah | AITDL**
+**Institutional Authority: AITDL | NISHADRAJ**
+

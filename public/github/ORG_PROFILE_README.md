@@ -1,10 +1,10 @@
-# NishadRaj OS — The Sovereign Digital Infrastructure
+﻿# NishadRaj OS â€” The Sovereign Digital Infrastructure
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -40,10 +40,10 @@ All participants are expected to adhere to our [Policy Framework](file:///d:/IMP
 Radical transparency is our standard. Our [Transparency Dashboard](file:///d:/IMP/GitHub/nishadraj/docs/TRANSPARENCY_DASHBOARD_SPEC.md) (in development) will provide real-time visibility into governance decisions, hash registries, and system health.
 
 ## 9. Roadmap Snapshot
-- **Phase 1: Institutional Foundation** — Establishing legal and governance frameworks (Current).
-- **Phase 2: Core Kernel Hardening** — Implementing deterministic execution and signature models.
-- **Phase 3: Sovereign Cloud Infrastructure** — Deploying autonomous hosting nodes.
-- **Phase 4: Community Empowerment** — Launching local advocacy chapters and developer toolkits.
+- **Phase 1: Institutional Foundation** â€” Establishing legal and governance frameworks (Current).
+- **Phase 2: Core Kernel Hardening** â€” Implementing deterministic execution and signature models.
+- **Phase 3: Sovereign Cloud Infrastructure** â€” Deploying autonomous hosting nodes.
+- **Phase 4: Community Empowerment** â€” Launching local advocacy chapters and developer toolkits.
 
 ## 10. Official Links
 - **Website**: [aitdl.com](https://aitdl.com) | [nishadraj.com](https://nishadraj.com)
@@ -52,3 +52,4 @@ Radical transparency is our standard. Our [Transparency Dashboard](file:///d:/IM
 
 ---
 *NishadRaj OS is a project of AITDL, led by Jawahar R Mallah.*
+

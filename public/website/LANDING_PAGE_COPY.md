@@ -1,10 +1,10 @@
-# Website Landing Page Copy — NishadRaj OS
+﻿# Website Landing Page Copy â€” NishadRaj OS
 
 Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
+Organization: AITDL | NISHADRAJ  
 Organization: AITDL  
 License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
+Copyright © AITDL | NISHADRAJ  
 
 ---
 
@@ -45,7 +45,8 @@ We invite developers, researchers, and cultural preservationists to join us. Whe
 - **Tertiary:** Join the AITDL Community [Link to AITDL]
 
 ## 10. Footer Copy
-**Copyright © Jawahar R Mallah | AITDL**  
+**Copyright © AITDL | NISHADRAJ**  
 Licensed under AGPL-3.0 with Governance Protection Terms.  
 NishadRaj OS: Built for Sovereignty.  
 [Contact Us] | [Privacy Policy] | [Transparency Report]
+

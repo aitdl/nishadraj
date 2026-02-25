@@ -1,4 +1,4 @@
-# Contributor License Agreement (CLA)
+﻿# Contributor License Agreement (CLA)
 
 By contributing to NishadRaj OS, you agree to the following terms:
 
@@ -8,5 +8,6 @@ By contributing to NishadRaj OS, you agree to the following terms:
 4. **Governed Workflow**: Contributions are processed as tasks within the task registry and must be authorized before execution.
 5. **Jurisdiction**: Any legal disputes arising from contributions or use of the platform shall be governed by the laws of the jurisdiction where the legal owner resides.
 
-**Copyright © Jawahar R Mallah | AITDL**
+**Copyright © AITDL | NISHADRAJ**
 **All Rights Reserved**
+

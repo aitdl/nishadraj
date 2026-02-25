@@ -1,4 +1,4 @@
-# Project Audit Report — NishadRaj OS
+﻿# Project Audit Report â€” NishadRaj OS
 
 **Project**: NishadRaj OS  
 **Founder**: Jawahar R Mallah  
@@ -133,7 +133,7 @@ D:.
             "https://nishadraj.com"
         ],
         "governance_version": "1.2.0",
-        "copyright": "Copyright © Jawahar R Mallah | AITDL",
+        "copyright": "Copyright © AITDL | NISHADRAJ",
         "usage": "All Rights Reserved"
     },
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -270,3 +270,4 @@ D:.
 
 ---
 **Audit Certified: NishadRaj OS Auditor Agent | AITDL**
+
