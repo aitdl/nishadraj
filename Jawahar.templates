@@ -1,0 +1,182 @@
+SYSTEM_INITIALIZE_UNIVERSAL_TEMPLATE_FRAMEWORK:
+
+Project: NishadRaj OS
+Founder: Jawahar R Mallah
+Organization: AITDL
+
+OBJECTIVE:
+Create reusable universal templates
+to eliminate repetitive command issuance.
+
+EXECUTE STRICTLY IN ORDER:
+
+========================================================
+STEP 1 — CREATE TEMPLATE DIRECTORY
+========================================================
+
+Create:
+/templates
+
+Subfolders:
+
+/templates/module
+/templates/policy
+/templates/agent
+/templates/document
+/templates/infrastructure
+/templates/public_launch
+
+========================================================
+STEP 2 — MODULE TEMPLATE
+========================================================
+
+Create:
+/templates/module/MODULE_TEMPLATE.json
+
+Structure:
+
+{
+  "_meta": {
+    "project": "NishadRaj OS",
+    "author": "Jawahar R Mallah",
+    "organization": "AITDL",
+    "governance_version": "AUTO_FETCH"
+  },
+  "module_name": "",
+  "purpose": "",
+  "dependencies": [],
+  "risk_level": "LOW | MODERATE | HIGH",
+  "documentation_required": true,
+  "signature_required": true,
+  "license_enforced": true
+}
+
+========================================================
+STEP 3 — POLICY TEMPLATE
+========================================================
+
+Create:
+/templates/policy/POLICY_TEMPLATE.md
+
+Sections:
+
+1. Purpose
+2. Scope
+3. Enforcement Rule
+4. Governance Impact
+5. Risk Assessment
+6. Activation Criteria
+7. Signature Verification Required
+
+========================================================
+STEP 4 — AGENT TEMPLATE
+========================================================
+
+Create:
+/templates/agent/AGENT_TEMPLATE.py
+
+Must include:
+
+- Author header
+- Role definition
+- Responsibilities
+- Preflight integration
+- Signature validation
+- License validation
+- Logging standard
+- Failure escalation path
+
+========================================================
+STEP 5 — DOCUMENT TEMPLATE
+========================================================
+
+Create:
+/templates/document/DOCUMENT_TEMPLATE.md
+
+Header:
+
+Project: NishadRaj OS
+Author: Jawahar R Mallah
+Organization: AITDL
+License: AGPL-3.0 + Governance Protection
+
+Sections:
+
+- Overview
+- Purpose
+- Dependencies
+- Legal Considerations
+- Activation Status
+
+========================================================
+STEP 6 — INFRASTRUCTURE TEMPLATE
+========================================================
+
+Create:
+/templates/infrastructure/INFRA_TEMPLATE.md
+
+Sections:
+
+- Layer Description
+- Security Controls
+- Signature Requirement
+- Deployment Restriction
+- Rollback Procedure
+- Audit Requirement
+
+========================================================
+STEP 7 — PUBLIC LAUNCH TEMPLATE
+========================================================
+
+Create:
+/templates/public_launch/LAUNCH_TEMPLATE.md
+
+Sections:
+
+- Announcement
+- Vision
+- Governance Transparency
+- Community Invitation
+- Compliance Statement
+
+========================================================
+STEP 8 — UPDATE GOVERNANCE SCHEMA
+========================================================
+
+Add:
+
+"universal_template_framework": {
+  "enabled": true,
+  "mandatory_for_new_modules": true,
+  "mandatory_for_new_agents": true,
+  "mandatory_for_new_policies": true
+}
+
+========================================================
+STEP 9 — ENFORCE TEMPLATE USAGE
+========================================================
+
+Modify validator_agent.py:
+
+Before allowing creation of:
+- New module
+- New policy
+- New agent
+
+Verify:
+Template file used as base.
+
+If not → block execution.
+
+========================================================
+STEP 10 — ACTIVATE
+========================================================
+
+Set:
+
+template_framework_status = ACTIVE
+
+Log in:
+/docs/CHANGE_IMPACT_LOG.md
+
+END COMMAND

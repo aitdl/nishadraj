@@ -128,20 +128,28 @@ class ValidatorAgent:
         # For now, we'll check files related to the task if specified
         return []
 
-    def validate_execution(self, task_id):
-        # Legal Compliance Verification (Step 10 Upgrade)
-        if not self.check_legal_compliance():
-            print("!!! LEGAL BLOCK: REQUIRED DOCUMENTS MISSING !!!")
-            return False
-
-        # Digital Signature Verification (Step 6 Upgrade)
+    def validate_deployment_integrity(self):
+        # Phase 4 Rule Enforcement
         if not verify_all_governance_files():
-            print("!!! SECURITY BLOCK: DIGITAL SIGNATURES INVALID !!!")
-            print("SYSTEM ENTERING PROTECTED_MODE.")
-            # We don't have a status update yet, but we block here
+            print("!!! CI/CD BLOCK: SIGNATURE INVALID !!!")
+            return False
+            
+        if not self.verify_schema_integrity():
+            print("!!! CI/CD BLOCK: GOVERNANCE MISMATCH !!!")
+            return False
+            
+        # Check if license has been altered (comparing against known license file)
+        if not self.check_legal_compliance():
+            print("!!! CI/CD BLOCK: LICENSE ALTERED OR MISSING !!!")
+            return False
+            
+        return True
+
+    def validate_execution(self, task_id):
+        # Deployment Integrity (Step 4.2 Upgrade)
+        if not self.validate_deployment_integrity():
             return False
 
-        if not self.verify_schema_integrity(): return False
         if not self.verify_registry_integrity(): return False
         if not self.validate_task_state(task_id): return False
         if not self.validate_dependencies(task_id): return False

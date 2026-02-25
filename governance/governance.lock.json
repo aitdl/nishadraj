@@ -10,7 +10,7 @@
         ],
         "governance_version": "1.1.0"
     },
-    "governance_schema_hash": "C2986707B817EEE9EF63BAD73E69E7102668F0C89BC86A835D7E1B3C130EC1BE",
+    "governance_schema_hash": "B9F50FE7C8B075B252FAAD43842B9996B23E01C7C00EEDB52C5229DFAB11C393",
     "task_registry_hash": "04373ecda49477be62970af012f4378b92be7c3cabd8e1e043ff4f7150e18db1",
     "documentation_manifest_hash": "8896BB7652A941F7B2956E0FD9C7C8A8E7F1BCA3EC9F932489A4A174BC84A4D3",
     "author_attribution_enforced": true,
@@ -32,5 +32,15 @@
     "multi_agent_mode": "ACTIVE",
     "transparency_dashboard": "ACTIVE",
     "fork_monitoring": "ACTIVE",
+    "institutional_layer": "ACTIVE",
+    "foundation_ready": "TRUE",
+    "advisory_framework": "ACTIVE",
+    "trademark_strategy": "ACTIVE",
+    "sovereign_hosting_plan": "ACTIVE",
+    "trademark_protection": {
+        "active": true,
+        "brand_name_protected": "NishadRaj OS",
+        "unauthorized_use_blocked": true
+    },
     "brand_status": "PUBLIC_READY"
 }

@@ -169,6 +169,23 @@
                 }
             }
         },
+        "trademark_protection": {
+            "type": "object",
+            "properties": {
+                "active": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "brand_name_protected": {
+                    "type": "string",
+                    "default": "NishadRaj OS"
+                },
+                "unauthorized_use_blocked": {
+                    "type": "boolean",
+                    "default": true
+                }
+            }
+        },
         "block_if_schema_mismatch": {
             "type": "boolean",
             "default": true
