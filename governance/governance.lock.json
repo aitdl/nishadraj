@@ -12,7 +12,7 @@
     },
     "governance_schema_hash": "B9F50FE7C8B075B252FAAD43842B9996B23E01C7C00EEDB52C5229DFAB11C393",
     "task_registry_hash": "04373ecda49477be62970af012f4378b92be7c3cabd8e1e043ff4f7150e18db1",
-    "documentation_manifest_hash": "8896BB7652A941F7B2956E0FD9C7C8A8E7F1BCA3EC9F932489A4A174BC84A4D3",
+    "documentation_manifest_hash": "1974C7716406A42EE16659F81B290A570D8EA2E2638AAF9AACF8E2FEF8974609",
     "author_attribution_enforced": true,
     "digital_signature_enforced": true,
     "signature_algorithm": "RSA-4096",

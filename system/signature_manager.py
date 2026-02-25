@@ -25,7 +25,11 @@ REGISTRY_PATH = os.path.join(SECURITY_DIR, "signature_registry.json")
 GOVERNANCE_FILES = [
     os.path.join(BASE_DIR, "governance/ai-governance.schema.json"),
     os.path.join(BASE_DIR, "governance/governance.lock.json"),
-    os.path.join(BASE_DIR, "system/task_registry.json")
+    os.path.join(BASE_DIR, "system/task_registry.json"),
+    os.path.join(BASE_DIR, "docs/DOCUMENTATION_MANIFEST.md"),
+    os.path.join(BASE_DIR, "public/github/ORG_PROFILE_README.md"),
+    os.path.join(BASE_DIR, "public/website/LANDING_PAGE_COPY.md"),
+    os.path.join(BASE_DIR, "public/whitepaper/NISHADRAJ_OS_WHITEPAPER.md")
 ]
 
 def ensure_security_dir():
