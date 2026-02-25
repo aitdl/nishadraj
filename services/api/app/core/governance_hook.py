@@ -12,10 +12,10 @@ import os
 # Ensure root is in path for imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../")))
 
-from system.validator_agent import preflight_check
+from system.validator_agent import full_check
 
 def enforce_governance(task_id: str):
     """
-    Enforces governance by running a preflight check using the system validator.
+    Enforces governance by running a full check using the system validator.
     """
-    return preflight_check(task_id)
+    return full_check()

@@ -10,6 +10,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.database.session import get_db
 import uuid
+from typing import Optional
 from app.schemas.user import UserCreate, UserOut, Token, UserUpdate, UserRegistrationOut, TOTPVerify
 from app.core.security import (
     get_password_hash, verify_password, create_access_token,
@@ -21,6 +22,7 @@ from app.models.audit_log import AuditLog
 from fastapi.security import OAuth2PasswordRequestForm
 from datetime import datetime
 from system.documentation_engine import log_task_event, log_error, log_change
+from app.core.dependencies import get_current_user, require_role
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
