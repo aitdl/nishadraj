@@ -29,6 +29,19 @@ if config.config_file_name is not None:
 # target_metadata = mymodel.Base.metadata
 target_metadata = Base.metadata
 
+# ============================================================
+# AUTH_002 SCOPE FILTER: Only manage AUTH-related tables.
+# This prevents autogenerate from touching tables from other
+# modules that exist in the DEV database.
+# ============================================================
+AUTH_002_TABLES = {"users", "audit_logs"}
+
+def include_object(object, name, type_, reflected, compare_to):
+    """Only autogenerate for AUTH_002 scoped tables."""
+    if type_ == "table":
+        return name in AUTH_002_TABLES
+    return True
+
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
@@ -47,12 +60,13 @@ def run_migrations_offline() -> None:
     script output.
 
     """
-    url = settings.DATABASE_URL
+    url = os.environ.get("DATABASE_URL", settings.DATABASE_URL)
     context.configure(
         url=url,
         target_metadata=target_metadata,
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
+        include_object=include_object,
     )
 
     with context.begin_transaction():
@@ -67,7 +81,7 @@ def run_migrations_online() -> None:
 
     """
     configuration = config.get_section(config.config_ini_section)
-    configuration["sqlalchemy.url"] = settings.DATABASE_URL
+    configuration["sqlalchemy.url"] = os.environ.get("DATABASE_URL", settings.DATABASE_URL)
     connectable = engine_from_config(
         configuration,
         prefix="sqlalchemy.",
@@ -76,7 +90,9 @@ def run_migrations_online() -> None:
 
     with connectable.connect() as connection:
         context.configure(
-            connection=connection, target_metadata=target_metadata
+            connection=connection,
+            target_metadata=target_metadata,
+            include_object=include_object,
         )
 
         with context.begin_transaction():

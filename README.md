@@ -1,160 +1,153 @@
-SYSTEM_CREATE_ROOT_README:
-
-Project: NishadRaj OS
-Founder: Jawahar R Mallah
-Organization: AITDL
-License: AGPL-3.0 + Governance Protection Terms
-
-OBJECTIVE:
-Create authoritative root-level README.md
-aligned with governance, legal, open-source,
-and institutional framework.
-
-EXECUTE STRICTLY:
-
-----------------------------------------------------
-STEP 1 — CREATE FILE
-----------------------------------------------------
-
-Create:
-/README.md
-
-----------------------------------------------------
-STEP 2 — INSERT CONTENT STRUCTURE
-----------------------------------------------------
-
-README must include the following sections:
-
-1. Project Header
-2. Vision Statement
-3. What is NishadRaj OS?
-4. Governance Model
-5. Open Source (Controlled) Philosophy
-6. Legal & License
-7. Digital Signature & Security
-8. Contribution Workflow
-9. Transparency Commitment
-10. Roadmap Snapshot
-11. Institutional Vision
-12. Contact & Official Links
-
-----------------------------------------------------
-STEP 3 — AUTHOR HEADER (MANDATORY)
-----------------------------------------------------
-
-Include at top:
-
-Project: NishadRaj OS  
-Founder: Jawahar R Mallah  
-Organization: AITDL  
-Websites: https://aitdl.com | https://nishadraj.com  
-License: AGPL-3.0 + Governance Protection Terms  
-Copyright © Jawahar R Mallah | AITDL  
-
-----------------------------------------------------
-STEP 4 — CONTENT BODY (INSERT EXACT STRUCTURE BELOW)
-----------------------------------------------------
-
 # NishadRaj OS
 
-## 🌊 Vision
-NishadRaj OS is a sovereign digital framework dedicated to structured knowledge preservation, governance-driven development, and community empowerment.
+**Founder:** Jawahar R Mallah  
+**Organization:** AITDL  
+**Architecture Mode:** Governance-Enforced Deterministic Backend  
+**Security Level:** Institutional Ready  
 
-## 🏛 What is NishadRaj OS?
-NishadRaj OS is:
-- A governance-first open source system
-- A digital cultural archive
-- A structured institutional platform
-- A transparent civilizational knowledge engine
+---
 
-## 🔐 Governance Model
-All development is controlled through:
-- Deterministic task registry
-- Validator agent enforcement
-- Digital signature verification
-- Attribution protection
-- Legal ownership framework
+## 🏛 Overview
 
-No uncontrolled modifications are permitted.
+NishadRaj OS is a governance-driven backend platform designed with deterministic enforcement, cryptographic integrity, structured auditability, and institutional-grade access control.
 
-## 📜 Open Source (Controlled)
-Licensed under AGPL-3.0 with additional governance protection clauses.
+This system is not a prototype framework — it is a structured operating backbone.
 
-Core principles:
-- Attribution mandatory
-- Governance layer cannot be removed
-- Validator & signature system enforced
-- Modified versions must remain open
+---
 
-## 🛡 Security & Integrity
-NishadRaj OS enforces:
-- Cryptographic signing of governance files
-- Preflight validation before execution
-- CI/CD enforcement
-- Fork compliance monitoring
+## 🔐 Core Principles
 
-## 🤝 Contribution
-All contributions must:
-- Follow Universal Template Framework
-- Pass validator_agent preflight_check()
-- Retain license & attribution
-- Pass signature verification
+- Strict sequential task execution
+- Schema + Instance governance locking
+- SHA256 hash verification
+- RSA signature enforcement
+- Module-wise documentation logging
+- Controlled migration review protocol
+- Backend-controlled authentication
+- No direct database exposure
 
-Direct commits to protected branches are blocked.
+---
 
-See: CONTRIBUTING.md
+## 🧠 Architecture
 
-## 📊 Transparency
-The system exposes:
-- Governance version
-- Signature status
-- Active tasks
-- Risk levels
-- Advisory review status
+```
+Frontend
+↓
+FastAPI Backend (JWT + Optional 2FA + RBAC + Governance)
+↓
+PostgreSQL (Docker DEV / Supabase PROD)
+```
 
-Transparency is non-negotiable.
+Supabase is used strictly as managed PostgreSQL infrastructure.  
+No Supabase Auth is used.
 
-## 🚀 Roadmap
-Phase I — Foundation Stabilization  
-Phase II — Knowledge Authority Engine  
-Phase III — Community Empowerment  
-Phase IV — Institutional Expansion  
-Phase V — Digital Civilizational Framework  
+---
 
-## 🏛 Institutional Vision
-NishadRaj OS aims to evolve into a structured institutional ecosystem supporting knowledge, community programs, and digital sovereignty.
+## 🔒 Governance Layer
 
-## 🌐 Official Links
-- https://aitdl.com
-- https://nishadraj.com
+**Location:**
+```
+/governance
+/system/validator_agent.py
+/system/governance_upgrade.py
+```
 
-----------------------------------------------------
-STEP 5 — VALIDATION
-----------------------------------------------------
+**Features:**
+- JSON Schema enforcement
+- Governance instance validation
+- Hash locking
+- Signature verification
+- Execution blocking on mismatch
 
-Verify:
+**Run validation:**
+```bash
+python system/validator_agent.py
+```
 
-- Author header present
-- License present
-- Governance references present
-- No missing sections
+---
 
-----------------------------------------------------
-STEP 6 — REGISTER IN GOVERNANCE
-----------------------------------------------------
+## 🗄 Database Strategy
 
-Add README.md to:
-- Documentation manifest
-- Signature registry
-- Hash registry
+Environment-driven configuration:
 
-Re-sign governance files.
+- **DEV** → Docker PostgreSQL
+- **PROD** → Supabase PostgreSQL
+- No multi-runtime switching
+- No direct frontend DB access
 
-----------------------------------------------------
-STEP 7 — ACTIVATE
-----------------------------------------------------
+**Migration workflow:**
+1. Generate in DEV
+2. SQL preview review
+3. Approve
+4. Apply
+5. Log in documentation
 
-Log in:
-/docs/CHANGE_IMPACT_LOG.md
+---
 
-END COMMAND
+## 🔑 Authentication (AUTH_002)
+
+- Email + Password
+- Optional TOTP (2FA)
+- JWT tokens (30 min expiry)
+- Account lockout (5 failed attempts)
+- Role-based access (`ADMIN` / `EDITOR` / `AUDITOR`)
+- Audit logging enabled
+- Governance preflight enforced
+
+---
+
+## 📄 Documentation Structure
+
+**Central:**
+```
+/docs
+```
+
+**Module-wise:**
+```
+/docs/modules
+```
+
+All module actions, errors, and changes are logged automatically.
+
+---
+
+## 🚦 Execution Rules
+
+No task is marked `COMPLETE` without:
+- Governance validation pass
+- Documentation entry created
+- Signature integrity verified
+
+---
+
+## ⚖ License
+
+AGPL-3.0 + Governance Protection Terms  
+All Rights Reserved © Jawahar R Mallah | AITDL
+
+---
+
+## 🔧 Development Setup (DEV)
+
+1. Run Docker PostgreSQL
+2. Configure `DATABASE_URL_DEV`
+3. Run migration review protocol
+4. Apply after approval
+5. Validate governance
+
+---
+
+## 📊 System Status
+
+| Component | Status |
+|-----------|--------|
+| Governance | LOCKED |
+| Backend Core | ACTIVE |
+| AUTH_002 | ACTIVE |
+| Migration Protocol | REVIEW_REQUIRED |
+| Multi-Environment DB | ENABLED |
+
+---
+
+*NishadRaj OS is built for structured, transparent, governance-first system development.*

@@ -57,3 +57,4 @@ TIMESTAMP: 2026-02-25T14:19:36.538721
 | GOV_UPGRADE_1.2.3 | /governance/* | Upgraded governance to v1.2.3. | Version: 1.2.3, Status: SUCCESS, Time: 2026-02-25. |
 | GOV_UPGRADE_1.2.4 | /governance/* | Upgraded governance to v1.2.4. | Version: 1.2.4, Status: SUCCESS, Time: 2026-02-25. |
 | GOV_UPGRADE_1.2.5 | /governance/* | Upgraded governance to v1.2.5. | Version: 1.2.5, Status: SUCCESS, Time: 2026-02-25. |
+| README_UPDATE_001 | /README.md | Rewrote README.md to reflect institutional architecture, governance model, and AUTH_002 module. | Status: COMPLETED, Risk: LOW, Time: 2026-02-25. |
